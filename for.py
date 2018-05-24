@@ -49,8 +49,6 @@ else:
 # 구구단
 for x in range(1, 10):
     for y in range(1, 10):
-        print(str(y) + ' * ' + str(x) + ' = ' + str(x*y), end='\t')
+        print(str(y) + ' * ' + str(x) + ' = ' + str(x*y).rjust(2), end='\t')
     else:
         print('')
-
-
